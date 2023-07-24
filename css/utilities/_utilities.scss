@@ -1,0 +1,42 @@
+
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+.d_Flex {
+  display: flex;
+}
+
+.d_inlineBlock{
+    display: inline-block;
+}
+
+.d_block{
+    display: flex;
+}
+
+.d_grid{
+    display: grid;
+}
+
+
+// text
+
+.textCenter{
+    text-align: center;
+}
+.textLeft{
+    text-align: left;
+}
+.textRight{
+    text-align: right;
+}
+
+
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+    width: 95%;
+}

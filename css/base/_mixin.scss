@@ -1,0 +1,28 @@
+// 要使用的時候用@include XXX
+@mixin hideText {
+  text-indent: 101%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@mixin clearfix {
+  &::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+}
+
+@mixin circle($size, $bgcolor) {
+  width: $size;
+  height: $size;
+  border-radius: 50%;
+  background-color: $bgcolor;
+}
+@mixin trangle($borderWidth) {
+  border-style: solid solid solid solid;
+  border-width: $borderWidth;
+  /* 設定 width、height 可更好理解原理 */
+  width: 0;
+  height: 0;
+}

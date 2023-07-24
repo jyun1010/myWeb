@@ -1,0 +1,19 @@
+.header{
+    position:sticky;
+    top: 0;
+    left: 0;
+    background-color: #ccc;
+    z-index: 5;
+    .nav{
+
+        ul{
+            justify-content: flex-end;
+        }
+        a{
+            display: inline-block;
+            padding: 20px 30px;
+
+            
+        }
+    }
+}
